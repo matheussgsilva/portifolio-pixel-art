@@ -4,7 +4,7 @@
 
 
 :root {
-    --color-first: #F55F01;
+    /*--color-first: #F55F01;
     --color-second: #2A18F5;
     --color-third: #FFFFFF;
     --color-fourth: #A84B11;
@@ -13,9 +13,9 @@
     --color-black-third: #828282;
     --color-error: #BA1F33;
     --color-warning: #CEB02A;
-    --color-success: #62C370;
+    --color-success: #62C370;*/
 
-    /*--color-first: #F25A70;
+    --color-first: #F25A70;
     --color-second: #7C5E99;
     --color-third: #FFFFFF;
     --color-black-first: #000000;
@@ -23,7 +23,7 @@
     --color-black-third: #828282;
     --color-error: #BA1F33;
     --color-warning: #CEB02A;
-    --color-success: #62C370;*/
+    --color-success: #62C370;
 
     --fonte-padrao: 'Fira Code', monospace;
     --fonte-titulo: 'Press Start 2P', sans-serif;
@@ -66,7 +66,7 @@ a::before {
     height: 60px;
 }
 
-#buttoncv {
+.buttonpage {
     display: inline-block;
     background-color: var(--color-first);
     box-shadow: 5px 5px 0px #000000;
@@ -75,6 +75,7 @@ a::before {
     transition: 100ms;
 }
 
-#buttoncv:hover {
+.buttonpage:hover {
     transform: scale(1.06);
 }
+
