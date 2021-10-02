@@ -66,37 +66,6 @@ a {
     height: 60px;
 }
 
-.buttonpage {
-    display: inline-block;
-    background-color: var(--color-first);
-    box-shadow: 5px 5px 0px #000000;
-    padding: 18px 20px;
-    margin-right: 0px;
-    transition: 100ms;
-}
-
-.buttonpage:hover {
-    transform: scale(1.06);
-}
-
-#bannerbutton {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    width: 455px;
-    margin-left: 181px;
-    margin-top: 30px;
-}
-
-.bannerbtn {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 142px;
-    height: 26px;
-    font-size: 20px;
-}
-
 .banner {
     position: absolute;
     width: 100%;
