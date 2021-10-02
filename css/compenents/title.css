@@ -5,3 +5,9 @@ h1 {
     color: var(--color-first);
     text-shadow: 4px 4px 0px #000000;
 }
+
+#bannerh1 {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 50px;
+}

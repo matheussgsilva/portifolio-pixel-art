@@ -5,3 +5,9 @@ h2 {
     color: var(--color-third);
     text-shadow: 4px 4px 0px #000000;
 }
+
+#bannerh2 {
+    display: inline-block;
+    margin-top: 28px;
+    margin-left: 45px;
+}
