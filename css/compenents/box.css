@@ -68,19 +68,19 @@
 
 #skill-bar-html {
     background-color: var(--color-second);
-    width: 120px;
+    width: 110px;
     height: 40px;
 }
 
 #skill-bar-css {
     background-color: var(--color-second);
-    width: 90px;
+    width: 80px;
     height: 40px;
 }
 
 #skill-bar-js {
     background-color: var(--color-second);
-    width: 100px;
+    width: 90px;
     height: 40px;
 }
 
@@ -136,4 +136,64 @@
 
 .project-img:hover {
     transform: scale(1.05);
+}
+
+#form-area {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--color-black-second);
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+
+#form-area label, input, textarea, button {
+    display: block;
+    width: 100%;
+}
+
+form {
+    text-align: left;
+    font-family: var(--fonte-padrao);
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--color-third);
+}
+
+form label {
+    margin-top: 20px;
+}
+form input {
+    border: 5px solid var(--color-black-first);
+    height: 30px;
+}
+
+form textarea {
+    border: 5px solid var(--color-black-first);
+}
+
+#form-area button {
+    margin: 20px 0px;
+    padding: 10px 0px;
+    background-color: var(--color-first);
+    color: var(--color-third);
+    font-family: var(--fonte-padrao);
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-black-first);
+    margin-top: 550px;
+    width: 100%;
+    padding: 10px;
+}
+
+footer img {
+    width: 35px;
+    height: 35px;
 }
