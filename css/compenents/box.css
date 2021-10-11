@@ -182,6 +182,8 @@ form textarea {
     color: var(--color-third);
     font-family: var(--fonte-padrao);
     font-size: 20px;
+    box-shadow: 5px 5px 0px var(--color-black-first);
+    cursor: pointer;
 }
 
 footer {
