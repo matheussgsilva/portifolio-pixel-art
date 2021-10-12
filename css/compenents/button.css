@@ -11,7 +11,7 @@
     transform: scale(1.06);
 }
 
-#bannerbutton {
+#banner-button {
     position: absolute;
     display: flex;
     justify-content: space-between;
