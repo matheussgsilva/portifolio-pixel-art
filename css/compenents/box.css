@@ -16,7 +16,7 @@
     background-color: var(--color-black-second);
     box-shadow: 6px 6px 0 #000000;
     width: 627px;
-    height: 184px;
+    padding: 42px 0px;
     margin-left: 91px;
     margin-top: 150px;
 }
