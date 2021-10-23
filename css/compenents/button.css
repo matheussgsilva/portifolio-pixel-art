@@ -1,13 +1,17 @@
-.buttonpage {
+.button {
     display: inline-block;
     background-color: var(--color-first);
     box-shadow: 5px 5px 0px #000000;
     padding: 18px 20px;
     margin-right: 0px;
     transition: 100ms;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-third);
+    text-decoration: none;
 }
 
-.buttonpage:hover {
+.button:hover {
     transform: scale(1.06);
 }
 

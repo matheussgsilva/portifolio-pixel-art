@@ -1,12 +1,7 @@
-h1 {
+.title {
     font-family: var(--fonte-titulo);
     font-size: 40px;
     line-height: 40px;
     color: var(--color-first);
     text-shadow: 4px 4px 0px #000000;
-}
-
-#bannerh1 {
-    display: inline-block;
-    margin-left: 50px;
 }

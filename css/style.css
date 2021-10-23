@@ -3,18 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 
-:root {
-    /*--color-first: #F55F01;
-    --color-second: #2A18F5;
-    --color-third: #FFFFFF;
-    --color-fourth: #A84B11;
-    --color-black-first: #000000;
-    --color-black-second: #3A4042;
-    --color-black-third: #828282;
-    --color-error: #BA1F33;
-    --color-warning: #CEB02A;
-    --color-success: #62C370;*/
-
+:root { 
     --color-first: #F25A70;
     --color-second: #7C5E99;
     --color-third: #FFFFFF;
@@ -29,36 +18,8 @@
     --fonte-titulo: 'Press Start 2P', sans-serif;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--color-second);
-    padding: 10px 20px;
-    border-bottom: 10px solid var(--color-black-first);
-    padding: 10px 20px;
-}
-
-nav {
-    text-align: right;
-}
-
-a {
-    display: inline-flex;
-    align-items: center;
-    color: #FFF;
-    font-size: 20px;
+body {
     font-family: var(--fonte-padrao);
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 30px;
-}
-
-.navlink::before {
-    content: "";
-    background-color: var(--color-first);
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
 }
 
 .header-img {

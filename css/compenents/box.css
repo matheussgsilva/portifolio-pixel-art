@@ -11,7 +11,7 @@
     height: 550px;
 }
 
-#box {
+.box {
     position: relative;
     background-color: var(--color-black-second);
     box-shadow: 6px 6px 0 #000000;
@@ -19,6 +19,10 @@
     padding: 42px 0px;
     margin-left: 91px;
     margin-top: 150px;
+}
+
+.box .title {
+    margin-bottom: 20px;
 }
 
 .skill {
