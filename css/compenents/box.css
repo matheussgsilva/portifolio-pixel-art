@@ -12,17 +12,18 @@
 }
 
 .box {
-    position: relative;
+    display: inline-block;
     background-color: var(--color-black-second);
-    box-shadow: 6px 6px 0 #000000;
-    width: 627px;
-    padding: 42px 0px;
+    box-shadow: 10px 10px 0 #000000;
+    text-align: center;
+    padding: 42px 44px;
+    position: relative;
     margin-left: 91px;
     margin-top: 150px;
 }
 
 .box .title {
-    margin-bottom: 20px;
+    margin-bottom: 28px;
 }
 
 .skill {
