@@ -73,7 +73,7 @@
 
 #skill-bar-html {
     background-color: var(--color-second);
-    width: 110px;
+    width: 100px;
     height: 40px;
 }
 
@@ -85,7 +85,7 @@
 
 #skill-bar-js {
     background-color: var(--color-second);
-    width: 90px;
+    width: 80px;
     height: 40px;
 }
 

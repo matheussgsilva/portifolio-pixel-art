@@ -21,8 +21,3 @@
 body {
     font-family: var(--fonte-padrao);
 }
-
-.header-img {
-    width: 60px;
-    height: 60px;
-}
