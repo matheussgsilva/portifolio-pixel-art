@@ -197,7 +197,7 @@ footer {
     background-color: var(--color-black-first);
     margin-top: 550px;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 footer img {
