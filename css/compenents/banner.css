@@ -1,0 +1,6 @@
+.banner {
+    background-image: url("../../assets/imagens/banner-m.jpg");
+    width: 100%;
+    height: 85vh;
+    border-bottom: 10px solid #000000;
+}
