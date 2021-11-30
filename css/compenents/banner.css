@@ -4,3 +4,11 @@
     height: 85vh;
     border-bottom: 10px solid #000000;
 }
+
+.banner .banner-button {
+    display: flex;
+    justify-content: space-between;
+    width: 455px;
+    margin-left: 181px;
+    margin-top: 30px;
+}
