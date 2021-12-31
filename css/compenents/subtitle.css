@@ -5,9 +5,3 @@
     color: var(--color-third);
     text-shadow: 4px 4px 0px #000000;
 }
-
-.bodyh2 {
-    display: inline-block;
-    color: var(--color-third);
-    margin: 50px 0px 20px 0px;
-}
