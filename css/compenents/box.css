@@ -13,62 +13,6 @@
     margin-bottom: 28px;
 }
 
-#skill-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 45px;
-}
-
-.skill-box-id {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: left;
-    margin-bottom: 40px;
-}
-
-.skill-box-id p {
-    margin: 10px 0px;
-}
-
-.skill-box-img {
-    width: 80px;
-    height: 90px;
-    margin: 20px;
-}
-
-.skill-bar {
-    background-color: var(--color-third);
-    border: 5px solid var(--color-black-first);
-    width: 367px;
-    height: 40px;
-}
-
-#skill-bar-html {
-    background-color: var(--color-second);
-    width: 100px;
-    height: 40px;
-}
-
-#skill-bar-css {
-    background-color: var(--color-second);
-    width: 80px;
-    height: 40px;
-}
-
-#skill-bar-js {
-    background-color: var(--color-second);
-    width: 80px;
-    height: 40px;
-}
-
-#skill-bar-react {
-    background-color: var(--color-second);
-    width: 20px;
-    height: 40px;
-}
-
 #projects {
     background-color: var(--color-black-first);
     border-bottom: 10px solid var(--color-second);

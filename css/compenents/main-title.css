@@ -1,4 +1,4 @@
-.title {
+.main-title {
     font-family: var(--fonte-titulo);
     font-size: 40px;
     line-height: 40px;
@@ -6,7 +6,7 @@
     text-shadow: 4px 4px 0px #000000;
 }
 
-.title.-second {
+.main-title.-second {
     color: var(--color-third);
     text-shadow: none;
     text-align: center;

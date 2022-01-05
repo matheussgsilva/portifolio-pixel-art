@@ -13,11 +13,12 @@
     <link rel="stylesheet" href="css/compenents/header.css">
     <link rel="stylesheet" href="css/compenents/banner.css">
     <link rel="stylesheet" href="css/compenents/section.css">
-    <link rel="stylesheet" href="css/compenents/title.css">
+    <link rel="stylesheet" href="css/compenents/main-title.css">
     <link rel="stylesheet" href="css/compenents/subtitle.css">
     <link rel="stylesheet" href="css/compenents/button.css">
     <link rel="stylesheet" href="css/compenents/box.css">
     <link rel="stylesheet" href="css/compenents/action.css">
+    <link rel="stylesheet" href="css/compenents/skill-tec.css">
 </head>
 <body>
     <header class="header">
@@ -32,7 +33,7 @@
     </header>
     <section class="banner">
         <div class="box">
-            <h1 class="title">Matheus Silva</h1>
+            <h1 class="main-title">Matheus Silva</h1>
             <h2 class="subtitle">Frontend Developer</h2>
         </div>
         <div class="banner-button">
@@ -41,15 +42,14 @@
         </div>
     </section>
     <section class="section" id="skill">
-        <h2 class="title -second">Skills</h2>
-        <dl>
-            <dt>HTML</dt>
-            <dd><img src="assets/imagens/ico_html5.png" alt="Logo do HTML 5 em pixel art"></dd>
-            <dd><progress max="100" value="55">70%</progress></dd>
+        <h2 class="main-title -second">Skills</h2>
+        <dl class="skill-tec">
+            <dd class="icon"><img src="assets/imagens/ico_html5.png" alt="Logo do HTML 5 em pixel art"></dd>
+            <dt class="title">HTML</dt>
         </dl>
     </section>
     <section id="projects">
-        <h2 class="title -second">Projetos</h2>
+        <h2 class="main-title -second">Projetos</h2>
         <div id="projects-area">
             <div class="project-box" id="project-one">
                 <img class="project-img" src="assets/imagens/mathflix.jpg" alt="Letra M" title="Mathflix">
@@ -63,7 +63,7 @@
         </div>
     </section>
     <section id="form-area">
-        <h2 class="title -second" >Contato</h2>
+        <h2 class="main-title -second" >Contato</h2>
         <form>
             <label for="nameinput">Nome</label>
             <input type="text" name="nameinput" id="nameinput">
