@@ -13,53 +13,6 @@
     margin-bottom: 28px;
 }
 
-#projects {
-    background-color: var(--color-black-first);
-    border-bottom: 10px solid var(--color-second);
-    width: 100%;
-    height: 520px;
-    text-align: center;
-}
-
-#projects-area {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 30px;
-}
-
-.project-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 280px;
-    height: 280px;
-    box-shadow: 10px 10px 0px var(--color-third);
-}
-
-#project-one {
-    background-color: var(--color-first);
-}
-
-#project-two {
-    background-color: var(--color-black-third);
-}
-
-#project-three {
-    background-color: var(--color-second);
-}
-
-.project-img {
-    width: 245px;
-    height: 245px;
-    cursor: pointer;
-    transition: transform 400ms;
-}
-
-.project-img:hover {
-    transform: scale(1.05);
-}
-
 #form-area {
     display: flex;
     flex-direction: column;
