@@ -17,13 +17,6 @@
     height: 100%;
 }
 
-#projects-area {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 30px;
-}
-
 .logo {
     width: 245px;
     height: 245px;
