@@ -9,3 +9,11 @@
 .section .main-title {
     margin-bottom: 60px;
 }
+
+.section.-bgBlack {
+    background-color: var(--color-black-first);
+}
+
+.section.-bdFirst {
+    border-color: var(--color-first);
+}

@@ -17,14 +17,6 @@
     height: 100%;
 }
 
-#projects {
-    background-color: var(--color-black-first);
-    border-bottom: 10px solid var(--color-second);
-    width: 100%;
-    height: 520px;
-    text-align: center;
-}
-
 #projects-area {
     display: flex;
     flex-direction: row;
