@@ -20,3 +20,9 @@
     border-left: 28px solid var(--color-third);
     transform: translateX(5px);
 }
+
+.button-arrow.-left::before {
+    border: 15px solid transparent;
+    border-right: 28px solid var(--color-third);
+    transform: translateX(-12px);
+}
