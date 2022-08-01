@@ -38,9 +38,6 @@ form {
     color: var(--color-third);
 }
 
-form label {
-    margin-top: 20px;
-}
 form input {
     border: 5px solid var(--color-black-first);
     height: 30px;
@@ -59,18 +56,4 @@ form textarea {
     font-size: 20px;
     box-shadow: 5px 5px 0px var(--color-black-first);
     cursor: pointer;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    background-color: var(--color-black-first);
-    margin-top: 550px;
-    width: 100%;
-    padding: 10px 0px;
-}
-
-footer img {
-    width: 35px;
-    height: 35px;
 }
