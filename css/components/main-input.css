@@ -1,0 +1,9 @@
+.main-input {
+    border: 5px solid var(--color-black-first);
+    height: 50px;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+}

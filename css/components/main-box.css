@@ -38,15 +38,6 @@ form {
     color: var(--color-third);
 }
 
-form input {
-    border: 5px solid var(--color-black-first);
-    height: 30px;
-}
-
-form textarea {
-    border: 5px solid var(--color-black-first);
-}
-
 #form-area button {
     margin: 20px 0px;
     padding: 10px 0px;
